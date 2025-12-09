@@ -1,0 +1,241 @@
+.cursor,
+.next,
+.prev {
+    cursor: pointer
+}
+
+.fill {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: auto;
+    height: aoto
+}
+
+.fill img {
+    flex-shrink: 0;
+    object-fit: fill;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.calendar-container {
+    text-align: center;
+    display: block
+}
+
+.calendar-responsive,
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.thumbnail a>img,
+.thumbnail>img {
+    max-width: 100%;
+    height: auto
+}
+
+.container {
+    position: relative
+}
+
+.calendarSlides {
+    display: none
+}
+
+.next,
+.prev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #b71113;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px
+}
+
+.next:hover,
+.prev:hover {
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #b71113;
+    padding: 12px;
+    color: #fff;
+    font-size: 20pt;
+    font-weight: 700;
+    max-width: 100%;
+    max-height: auto
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.column {
+    float: left;
+    width: 7.69%
+}
+
+.bcelCalendar {
+    opacity: .6
+}
+
+.active,
+.bcelCalendar:hover {
+    opacity: 1
+}
+
+.bcel-card-calendar {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.bcel-animate-fading {
+    animation: 10s infinite fading
+}
+
+@keyframes fading {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.bcel-animate-opacity {
+    animation: .8s opac
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.bcel-animate-top {
+    position: relative;
+    animation: .6s animatetop
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.bcel-animate-left {
+    position: relative;
+    animation: .6s animateleft
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.bcel-animate-right {
+    position: relative;
+    animation: .6s animateright
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.bcel-animate-bottom {
+    position: relative;
+    animation: .6s animatebottom
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.bcel-animate-zoom {
+    animation: .6s animatezoom
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.bcel-animate-input {
+    transition: width .4s ease-in-out
+}
+
+.w3-animate-input:focus {
+    width: 100% !important
+}
+
+.column2023 {
+    float: left;
+    width: 14.28%;
+}
